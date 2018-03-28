@@ -1,0 +1,51 @@
+/*!
+    Author : Nahid
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+
+/*!
+    * Here goes the customization
+    * for homepage customize 
+
+*/
+a {
+    color:black;
+}
+
+.customnav {
+    background-color: teal;
+}
+
+/*for navbar logo*/
+.navbar-dark .navbar-brand {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/*for navbar menuitem color */
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+}
+
+.cart-link {
+    background: url(../images/cart.png) no-repeat 0 0;
+    margin-left:10px;
+    margin-top:8px;
+}
+.cart-link a{
+    margin-left:20px;
+    margin-top:-8px;
+}
+.cart-link a:hover {
+        text-decoration: underline;
+}
